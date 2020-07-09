@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="subheader">
+				<div class="container">
+					<p>Welcome to E-Shop</p>
+					<a href="#">Help</a>
+					<a href="#">Guest</a>
+					<a href="#">User</a>
+					<a href="#">Download Android App</a>
+				</div>
+			</div>
+				<div id="main-header">
+					<div id="logo">
+						<span id="ist">E</span>
+						<span id="iist">Shop.com</span>
+					</div>
+				<div id="search">
+					<form action="">
+					<input class="search-area" type="text" name="text" placeholder="Search Here">
+					<input class="search-btn" type="submit" name="submit" value="Search">
+					</form>
+				</div>
+				<div id="user-menu">
+				<li><a href="#">Cart</a></li>
+				<li><a href="login.html">Login</a></li>
+				</div>
+			</div>
+	</div>
+
+
+<div class="containe">
+	<img src="img/men.png">
+	<form name="login">
+<div class="form-input">
+            Username<input type="text" name="userid" placeholder="Enter Username"/>
+</div>
+<div class="form-input">
+            Password<input type="password" name="pswrd"  placeholder="Enter Password"/>
+</div>
+            <input type="submit" name="submit" onclick="check(this.form)" value="LOG IN" class="btn-login"/></br>
+            <input type="reset" value="RESET" class="btn-login"/>
+        </form>
+<script language="javascript">
+            function check(form) { 
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                    window.open('index.html')
+                }
+                else {
+                    alert("Error Password or Username")
+                }
+            }
+        </script>
+</div>
+
+<div id="footer">
+		<div class="container">
+		<div class="footer_sub">
+			<h2>Our Story</h2>
+			<p>E-Shop is a product that helps consumers make informed buying decisions. We aim to create and refine that perfect shopping decision platform, which would help consumers shop more confidently.
+		E-Shop is led by people with diverse experience in tech, marketing, sales and product management at some popular companies. We are a bunch of curious souls, passionate about creating the future.
+
+<span><a href="#"> Read More..</a></span>
+</p>
+		</div>
+		<div class="footer_sub">
+			<center>
+				<h2>Important Links</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="freshoffers.html">Fresh Offers</a></li>
+					<li><a href="#">Electronis</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="shoes.html">Shoes</a></li>
+				</ul>
+			</center>
+		</div>
+		<div class="footer_sub">
+			<center>
+				<h2>Social Links</h2>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google+</a></li>
+					<li><a href="#">Youtube</a></li>
+					<li><a href="#">Blogger</a></li>
+				</ul>
+			</center>
+		</div>
+		<div class="footer_sub">
+			<center>
+				<h2>Subscribe Us</h2>
+			<input type="text" name="subs" placeholder="Write Your Email Here.." class="subs">
+			<input type="submit" name="submit_btn" value="Subscribe" class="submit_btn">
+			<p class="sub_p">Enter Your E-mail id to get notifications from us.</p>
+			</center>
+		</div>
+
+		</div>
+		</div>
+</body>
+</html>
