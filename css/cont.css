@@ -1,0 +1,29 @@
+body{
+background-image: url(../img/loginimg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	background-position: center;
+	margin-top: 20px;
+}
+h3{
+font-family:verdana;
+font-size:40px;
+text-align:center;
+margin-top:50px;
+}
+h4{
+font-family:verdana;
+font-size:15px;
+}
+span{
+font-family:tahoma;
+font-size:20px;
+}
+.btn-login{
+width:70px;
+height:50px;
+background-color:black;
+color:white;
+border:none;
+font-family:verdana;
+}

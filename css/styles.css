@@ -1,0 +1,291 @@
+﻿
+#wrapper{font-family:helvetica;}
+.container{width:95%;
+margin:0 auto;
+}
+body{
+background-color: white;
+font-color:#C70039;
+}
+#subheader{
+	width:100%;
+	height:30px;
+	background:#000b25;
+	color:#fff;
+	margin-top:-15px;
+}
+#subheader p{
+	float:left;
+	margin-top:7px;
+}
+#subheader a{
+	float:right;
+	line-height: 30px;
+	color:#fff;
+	text-decoration:none;
+	margin-left:30px;
+	margin-top:7px;
+}
+#main-header{
+	width:100%;
+	height:100px;
+	background:#000b25;
+	float:left;
+	margin-top:-12px;
+}	
+#logo{
+	width:250px;
+	margin-top:10px;
+	float:left;
+}
+#ist{
+	color:white;
+	font-size:45px;
+	font-weight:bold;
+	margin-left:15px;
+	font-family:Impact;
+}
+#iist{
+	color:white;
+	font-size:35px;
+	font-weight:bold;
+	font-family:Impact;
+}
+#search{
+	width:650px;
+	float:left;
+	padding:20px;
+	margin-left:50px;
+	margin-top:15px;
+}
+.search-area{
+	width:500px;
+	height:50px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	float:left;
+	padding-left:15px;
+	margin-top:-15px;
+	font-size:15px;
+}
+.search-btn{
+	width: 100px;
+	height:52px;
+	background: #ff0000;
+	border: none;
+	border-radius: 10px;
+	float:left;
+	padding-left:15px;
+	margin-top:-15px;
+	color:#fff;
+	margin-left:-100px;
+	font-size:20px;
+}
+#user-menu{
+	width:300px;
+	float:right;
+	margin-top:30px;
+}
+#user-menu li{
+	float:left;
+	width:140px;
+	text-align:center;
+	list-style:none;
+	font-size:25px;
+	border-left:1px solid white;
+}
+#user-menu li:hover{
+	font-size:30px;
+	transition:all .25s ;
+}
+#user-menu li a{
+ 	color:white;
+	text-decoration: none;
+	font-size:25px;
+
+}
+#navigation{
+	width:100%;
+	height:45px;
+	background:black;
+	float:left;
+}
+nav{
+	width:100%;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+nav a{
+	margin-left:65px;
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav a:hover{
+	color:#ff0000;
+	transition: all .5s;
+}
+.slider img{
+	width: 100%;
+	height: 450px;	
+}
+#heading-block{
+	width:100%;
+	height: auto;
+	float:left;
+	color:  #ff0000;
+	font-size: 22px;
+}
+#heading-block h2{
+	line-height: 35px;
+	border-left: 20px solid  #ff0000;
+	padding-left: 10px;
+	font-family: tahoma;
+}
+.catbox{
+	width: 235px;
+	height: 235px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin-left: 40px;
+
+}
+.catbox span{
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	display:block;
+	bottom: 30px;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+}
+.catbox:hover span{
+	color:orange;
+}
+.catbox img{
+	max-width: 100%;
+	transition: all .5s ease;
+}
+.catbox:hover img{
+	transform: scale(1.3,1.3);
+	transition: all .5s ease;
+}
+.prod-box{
+	width: 235px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 20 30 0;
+	position: relative;
+	float: left;
+	margin-left: 40px;
+}
+.prod-box img{
+	max-width: 100%;
+}
+.prod-trans{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 78%;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	transition: all .5s ease;
+}
+.prod-box:hover .prod-trans{
+	opacity: 1;
+	transition: all .5s ease;
+}
+.prod-feature{
+	text-align: center;
+	margin-top: -150px;
+	transition: all .5s ease;
+}
+.prod-feature p{
+	color:orange;
+	font-family: verdana;
+	margin-top: -50px;
+}
+.prod-box:hover .prod-feature{
+	margin-top: 150px;
+	transition: all .5s ease;
+}
+.prod-feature input{
+	width:150px;
+	height: 35px;
+	font-size:17px;
+}
+.offer img{
+	margin-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer{
+	width: 100%;
+	height: auto;
+	float: left;;
+	background: #000b25;
+	margin-top: 35px;
+}
+.footer_sub{
+	width: 25%;
+	float:left;
+	
+}
+.footer_sub ul li{
+	list-style: none;
+}
+.footer_sub ul li a{
+	text-decoration: none;
+	color: white;
+}
+.footer_sub ul li a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+.footer_sub h2{
+	color: #ff0000;
+	
+}
+.footer_sub p{
+	color: white;
+}
+.subs{
+	width: 150px;
+	border: #7EC0EE;
+	height: 25px;
+	padding: 15px;
+	float: left;
+}
+.submit_btn{
+	height: 50px;
+	border: none; 
+	cursor: pointer;
+	background: orange;
+	margin-left: -40px;
+	
+}
+.sub_p{
+	color: #999;
+	font-size: 12px;
+	font-style: italic;
+	margin-left: -60px;
+}
+hr{
+	color: red;
+	height: 3px;
+	border: none;
+	background-color: black;
+}
+
+
+
+
